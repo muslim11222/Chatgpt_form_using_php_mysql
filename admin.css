@@ -1,0 +1,49 @@
+
+body {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+}
+
+.header {
+     background-color: skyblue;
+     padding: 20px;
+     padding-left: 30px;
+     font-size: 25px;
+}
+
+.header a {
+     text-decoration: none;
+     color: white;
+}
+.logout {
+     float: right;
+     padding-right: 30px;
+}
+
+
+ul {
+     background-color: #424a5b;
+     width: 20%;
+     height: 100%;
+     position: fixed;
+     padding-top: 5%;
+}
+ul li {
+     list-style: none;
+     padding-bottom: 30px;
+     font-size: 20px;
+}
+ul li  a {
+     text-decoration: none;
+     color: white;
+     font-weight: bold;
+}
+ul li  a:hover {
+     color: skyblue;
+}
+.content {
+     margin-left: 30%;
+     margin-top: 5%;
+}
